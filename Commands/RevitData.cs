@@ -164,7 +164,7 @@ namespace HelloRevitApplication.Commands
             AreaLoad areaLoad = AreaLoad.Create(Document, analyticalModelSurface, new XYZ(0, 0, -304.8*1.2), null);
 
            
-            Element loadCase = LoadCases.First(load => { return load.Name.Equals("TUONG"); });
+            Element loadCase = LoadCases.First(load => { return load.Name.Equals("HOANTHIEN"); });
             areaLoad.LoadCaseId = loadCase.Id;
         }
 

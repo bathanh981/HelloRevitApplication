@@ -37,7 +37,7 @@ namespace HelloRevitApplication.Commands
                 Singleton.Instance.RevitData.Transaction.Commit();
 
             }
-            TaskDialog.Show("Thành công", "Tạo tải trọng thành công");
+            TaskDialog.Show("Thành công", "Tạo tải trọng đường thành công");
             return Result.Succeeded;
         }
 
